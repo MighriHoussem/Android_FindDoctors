@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:showAsAction="always">
+
+
+    <item
+        android:id="@+id/con_user"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Connect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/new_user"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Register"
+        app:showAsAction="never"
+        />
+
+
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>
